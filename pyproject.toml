@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fondos_comunes"
+version = "0.1.0"
+description = ""
+authors = ["RodrigoFernandez <rdr.rkh+github2@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tomli = "^2.0.1"
+pandas = "^1.5.3"
+xlrd = "^2.0.1"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
