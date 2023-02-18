@@ -23,7 +23,7 @@ class Actualizador(object):
             fecha = datetime.date(int(partes[2]), int(partes[1]), int(partes[0]))
             delta = datetime.timedelta(days=1)
             dia_anterior = fecha - delta
-            return dia_anterior.strftime('%d/%m/%Y')
+            return dia_anterior.strftime('%Y-%m-%d')
         return ""
 
     def getHoja(self, ruta):

@@ -20,7 +20,6 @@ def get_parser():
 
 def actualizar(csv, directorio_tenencias):
     for una_tenencia in sorted(glob.glob(directorio_tenencias + r'/TenenciaFondosComunes*')):
-        print(una_tenencia)
         actualizador = Actualizador(csv, una_tenencia)
         actualizador.ejecutar()
 

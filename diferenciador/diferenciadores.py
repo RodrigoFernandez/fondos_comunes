@@ -51,6 +51,7 @@ class Diferenciador(object):
         for clave, grupo in agrupados:
             grupo_ordenado = grupo.sort_values(['fechas'], ascending=False)
             seccion = grupo_ordenado.head(n=2)
+            # print(seccion)
             fila = self.get_fila_df_diferencia(clave[0], clave[1],
                                                seccion.iloc[0]["fechas"],
                                                seccion.iloc[1]["fechas"],
