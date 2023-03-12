@@ -2,3 +2,7 @@
 
 [actualizador]
 directorio = ""
+
+[diferenciador]
+fondos = ""
+salida = ""
